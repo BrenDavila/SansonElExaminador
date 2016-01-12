@@ -157,6 +157,7 @@ CREATE TABLE IF NOT EXISTS Comentarios (
 CREATE TABLE IF NOT EXISTS Foro (
   idUsuario VARCHAR(45) NULL,
   idDuda VARCHAR(45) NULL,
+  Tema_Pregunta VARCHAR(50) NULL,
   Pregunta_Foro VARCHAR(250) NULL,
   Respuesta_Foro_1 VARCHAR(250) NULL,
   Respuesta_Foro_2 VARCHAR(250) NULL,
