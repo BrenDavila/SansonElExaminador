@@ -63,6 +63,8 @@
 	</section>
 					<br>
 
+				<form class="form-horizontal" action="security" method="GET">
+			        <input type="hidden"  name="action" value="Foro">
 					<main>
 					      <section class="well well4">
 					        <div class="container">
@@ -70,12 +72,12 @@
 					              <form id="contact-form" class='contact-form'>
 					                <fieldset>
 					                  <label class="name">
-					                    <input type="text" name="name" placeholder="Tema de la pregunta:" value="" data-constraints="@Required @JustLetters"/>
+					                    <input type="text" class="form-control" name="Tema_Pregunta" id="TemaPregunta" placeholder="Tema de la pregunta:" value="" data-constraints="@Required @JustLetters"/>
 					                    <span class="empty-message">*This field is required.</span>
 					                  </label>
 
 					                  <label class="message">
-					                    <textarea name="message" size="50" placeholder="Plantea tu pregunta:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+					                    <textarea name="Pregunta_Foro" class="form-control" id="PreguntaForo" size="50" placeholder="Plantea tu pregunta:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
 					                    <span class="empty-message">*This field is required.</span>
 					                  </label>
 
