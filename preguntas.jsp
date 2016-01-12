@@ -66,7 +66,7 @@
 					<main>
 					      <section class="well well4">
 					        <div class="container">
-					              <h1>Soporte T&#233;cnico</h1>
+					              <h1>Foro de preguntas</h1>
 					              <form id="contact-form" class='contact-form'>
 					                <fieldset>
 					                  <label class="name">
@@ -78,15 +78,6 @@
 					                    <textarea name="message" size="50" placeholder="Plantea tu pregunta:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
 					                    <span class="empty-message">*This field is required.</span>
 					                  </label>
-
-														<!--
-														Statement stmt = con.createStatement(
-                                      ResultSet.TYPE_SCROLL_INSENSITIVE,
-                                      ResultSet.CONCUR_UPDATABLE);
-       												        ResultSet rs = stmt.executeQuery("SELECT a, b FROM TABLE2");
-
-
-														-->
 
 					                  <div class="btn-wr text-primary">
 					                    <a class="btn btn-primary" href="#" data-type="submit"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Preguntar al foro</a>
